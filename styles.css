@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background: rgb(38,47,70);
+}
+
+h3{
+    color: #fff;
+    font-family: cursive;
+    
+}
