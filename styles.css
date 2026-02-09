@@ -99,6 +99,6 @@ h2{
 }
 
 .pressed{
-    block-shadow: 0 3px 4px 0 #dbdef3;
+    box-shadow: 0 3px 4px 0 #dbdef3;
     opacity: 0.5;
 }
