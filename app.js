@@ -52,7 +52,7 @@ function makeSound(key) {
 
         case "a":
             var audio = new Audio("sounds/Guita.mp3");
-            tom2.play();
+            audio.play();
             break;
 
         case "s":
@@ -77,7 +77,7 @@ function makeSound(key) {
 
         case "l":
             var audio = new Audio("sounds/Caracas.mp3");
-            tom2.play();
+            audio.play();
             break;
         }
 }
