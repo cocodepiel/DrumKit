@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background: rgb(38,47,70);
+}
+
+h3{
+    color: #fff;
+    font-family: cursive;
+    text-shadow: 5px 0 rrb(70,2,185);
+    font-size: 20px;; 
+
+}
+
+h1{
+    color: #fff;
+    font-size: 5rem;
+    text-shadow: rgb(70, 2, 185);
+}
+
+h2{
+    color: #fff;
+    text-decoration: none;
+    font-family: cursive;
+    text-shadow: 5px 0 rrb(70,2,185);
+
+}
+
+.hr{
+    color: 5px 0 rrb(70,2,185);
+    height: 2px;
+    background: #000;
+}
+
+.w{
+    width: 50px;
+    height: 50px;
+    background-image: url('images/tom1.png'); /* de momento no hay ninguna puesta aqui*/
+    background-size: cover;
+}
+.a{
+    width: 50px;
+    height: 50px;
+    background-image: url('images/tom1.png'); /* de momento no hay ninguna puesta aqui*/
+    background-size: cover;
+}
+.d{
+    width: 50px;
+    height: 50px;
+    background-image: url('images/tom1.png'); /* de momento no hay ninguna puesta aqui*/
+    background-size: cover;
+}
+
+.j{
+    width: 50px;
+    height: 50px;
+    background-image: url('images/tom1.png'); /* de momento no hay ninguna puesta aqui*/
+    background-size: cover;
+}
+
+.k{
+    width: 50px;
+    height: 50px;
+    background-image: url('images/tom1.png'); /* de momento no hay ninguna puesta aqui*/
+    background-size: cover;
+}
+
+.l{
+    width: 50px;
+    height: 50px;
+    background-image: url('images/tom1.png'); /* de momento no hay ninguna puesta aqui*/
+    background-size: cover;
+}
+
+.set{
+    margin: 10% auto;
+
+}
+
+.drum{
+    outline: none;
+    margin: 3px;
+    padding: 5px;
+    border: 10px solid rgb(20, 20, 246);
+    width: 120px;
+    height: 120px;
+    font-size: 4rem;
+    font-family: cursive;
+    color: rgba(255, 71, 71, 0.901);
+    text-shadow: 4px 0 rgb(147, 73, 73);
+    border-radius: 15px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.pressed{
+    block-shadow: 0 3px 4px 0 #dbdef3;
+    opacity: 0.5;
+}
