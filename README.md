@@ -2,14 +2,17 @@ Esta es la info del proyecto
 
 Miembros del equipo
 
-Pepe
-Maria
-Juan
+Alicia
+Javier
+Yoed
+Alejandro
 
 Que ha echo cada uno
 
-Pepe ha hecho la parte de la base de datos
+Javier: Ha realizado el análisis funcional de proyecto, además de la busqueda de sonidos para el proyecto. Creación del trello.
 
-Maria ha hecho la parte de la interfaz
+Alicia: Ha creado el repositorio y ha realizado la estructura del proyecto. Además se ha encargado del documento de pruebas realizadas. Creación del trello. Realizar el CSS
 
-Juan ha hecho la parte de la logica
+Yoed: Se ha encargado de realizar el diseño del proyecto para una comprensión mas visual. Además de realizar el HTML. Creación del trello.
+
+Alejandro: Se ha encargado de realizar el JS. Creación del trello. Revisar el trabajo del análisis funcional y la implementación de los sonidos. Creación del trello.
