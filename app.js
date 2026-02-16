@@ -5,79 +5,55 @@ var typed = new Typed(".auto-input", {
     loop: true
 });
 
-//encuentra todos los drum
-let numOfDrumbtn = document.querySelectorAll(".drum").length;
-console.log(numOfDrumbtn);
+let drumButtons = document.querySelectorAll(".drum");
+let numOfDrumbtn = drumButtons.length;
 
-//Detecta al presionar un boton
 for (var i = 0; i < numOfDrumbtn; i++) {
-    document.querySelectorAll(".drum")[i].addEventListener("mouseover", function () {
-        let buttonInnerHTML = this.innerHTML;
-        console.log(buttonInnerHTML);
-
+    drumButtons[i].addEventListener("click", function () {
+        let buttonInnerHTML = this.innerHTML.toLowerCase();
         makeSound(buttonInnerHTML);
-
         btnAnimation(buttonInnerHTML);
     });
 }
 
-//Detectar botones de teclas
 document.addEventListener("keypress", function (event) {
-    console.log(event.key);
-
-    makeSound(event.key);
-
-    btnAnimation(event.key);
+    let keyPath = event.key.toLowerCase();
+    makeSound(keyPath);
+    btnAnimation(keyPath);
 });
 
-//Añadir animacion
 function btnAnimation(currentKey) {
     let activeButton = document.querySelector("." + currentKey);
-    console.log(activeButton);
-    activeButton.classList.add("pressed");
-
-    setTimeout(function () {
-        activeButton.classList.remove("pressed")
-    }, 100);
-    
+    if (activeButton) {
+        activeButton.classList.add("pressed");
+        setTimeout(function () {
+            activeButton.classList.remove("pressed");
+        }, 100);
+    }
 }
 
-//funcion crear sonido
 function makeSound(key) {
     switch (key) {
         case "w":
-            var audio = new Audio("sounds/Bombon.mp3");
-            audio.play();
+            new Audio("sounds/Bombon.mp3").play();
             break;
-
         case "a":
-            var audio = new Audio("sounds/Guita.mp3");
-            audio.play();
+            new Audio("sounds/Guita.mp3").play();
             break;
-
         case "s":
-            var audio = new Audio("sounds/ManoBread.mp3");
-            audio.play();
+            new Audio("sounds/ManoBread.mp3").play();
             break;
-
         case "d":
-            var audio = new Audio("sounds/Piasi.mp3");
-            audio.play();
+            new Audio("sounds/Piasi.mp3").play();
             break;
-
         case "j":
-            var audio = new Audio("sounds/Platillo_volante.mp3");
-            audio.play();
+            new Audio("sounds/Platillo_volante.mp3").play();
             break;
-
         case "k":
-            var audio = new Audio("sounds/Sorpresa.mp3");
-            audio.play();
+            new Audio("sounds/Sorpresa.mp3").play();
             break;
-
         case "l":
-            var audio = new Audio("sounds/Caracas.mp3");
-            audio.play();
+            new Audio("sounds/Caracas.mp3").play();
             break;
-        }
+    }
 }
