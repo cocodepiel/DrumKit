@@ -15,4 +15,4 @@ Alicia: Ha creado el repositorio y ha realizado la estructura del proyecto. Adem
 
 Yoed: Se ha encargado de realizar el diseño del proyecto para una comprensión mas visual. Además de realizar el HTML. Creación del trello.
 
-Alejandro: Se ha encargado de realizar el JS. Creación del trello. Revisar el trabajo del análisis funcional y la implementación de los sonidos. Creación del trello.
+Alejandro: Se ha encargado de realizar el JS. Creación del trello. Revisar el trabajo del análisis funcional y la implementación de los sonidos.

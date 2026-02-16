@@ -1,5 +1,5 @@
 var typed = new Typed(".auto-input", {
-    strings: ["Digital Coding Adda", "Made by YAJA Team"],
+    strings: ["Alicia Ros", "Alejandro Do Nascimento", "Yoed Londoño"],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true
